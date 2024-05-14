@@ -15,9 +15,7 @@ Task Management App is a web application built with NestJS and MySQL, providing 
 1. Clone the repository:
 
 ```
-
 git clone https://github.com/your-username/task-management-app.git
-
 ```
 
 2. Install dependencies:
@@ -26,7 +24,6 @@ git clone https://github.com/your-username/task-management-app.git
 cd task-management-app
 
 npm install
-
 ```
 
 3. Set up environment variables:
@@ -45,9 +42,7 @@ npm install
 4. Start the server:
 
 ```
-
 npm start
-
 ```
 
 5. Access the application at `http://localhost:3000`.
