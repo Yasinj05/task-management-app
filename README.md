@@ -1,4 +1,4 @@
-# Task Management App
+# Task Management App 📝
 
 Task Management App is a web application built with NestJS and MySQL, providing functionalities for user registration, login, user management, user profiles, and task management.
 
@@ -10,7 +10,7 @@ Task Management App is a web application built with NestJS and MySQL, providing 
 - **User Profile:** Users can update their profiles, including uploading profile pictures.
 - **Task Management:** Users can create, read, update, and delete tasks, including specifying task name, description, and attachment.
 
-## Installation
+## Installation 📥
 
 1. Clone the repository:
 
@@ -68,14 +68,18 @@ npm start
   - `GET /tasks`
   - `GET /tasks/:id`
 
-## Technologies Used
+## Testing API endpoints with Swagger 🧪
 
-- NestJS
-- MySQL
-- TypeORM
-- JWT (JSON Web Tokens)
-- bcrypt.js
+1. Start the server:
 
-## License
+```
+npm run start:dev
+```
+
+2. Open your browser and navigate to http://localhost:3000/api.
+
+3. Explore and test the endpoints using the Swagger UI.
+
+## License ⚖️
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
