@@ -1,7 +1,12 @@
 import { IsNotEmpty } from 'class-validator';
-import { Multer } from 'multer';
+import { ApiProperty } from '@nestjs/swagger';
 
 export class ProfilePictureDto {
   @IsNotEmpty()
-  file: Multer.File;
+  @ApiProperty({
+    type: 'string',
+    format: 'binary',
+    description: 'Profile picture file',
+  })
+  file: any;
 }
