@@ -7,7 +7,7 @@ import {
   Param,
   Body,
 } from '@nestjs/common';
-import { ProfileService } from './profile.service';
+import { ProfileService } from './profiles.service';
 import { JwtAuthGuard } from '../auth/jwt-auth.guard';
 import { FileInterceptor } from '@nestjs/platform-express';
 import { ProfilePictureDto } from './dto/profile-picture.dto';
